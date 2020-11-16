@@ -1,11 +1,11 @@
 import React from "react";
 import "./OurClasses.css";
-import firstTraining from "../../../resources/Image & Icon/01 phsco Training.png";
-import CardioTraining from "../../../resources/Image & Icon/cardio Traning.jpg";
-import selfDefence from "../../../resources/Image & Icon/rsz_self_defence.jpg";
-import advanceGym from "../../../resources/Image & Icon/rsz_advance_gym.jpg";
-import strengthTraining from "../../../resources/Image & Icon/rsz_strength_traning.jpg";
-import lastTraining from "../../../resources/Image & Icon/phsco training.jpg";
+import firstTraining from "../../../resources/Images/01 phsco Training.png";
+import CardioTraining from "../../../resources/Images/cardio Traning.jpg";
+import selfDefence from "../../../resources/Images/rsz_self_defence.jpg";
+import advanceGym from "../../../resources/Images/rsz_advance_gym.jpg";
+import strengthTraining from "../../../resources/Images/rsz_strength_traning.jpg";
+import lastTraining from "../../../resources/Images/phsco training.jpg";
 
 const OurClasses = () => {
   return (

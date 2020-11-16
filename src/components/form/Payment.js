@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import amex from "../../resources/Image & Icon/credit-cards_amex.png";
-import masterCard from "../../resources/Image & Icon/credit-cards_mastercard.png";
-import visa from "../../resources/Image & Icon/credit-cards_visa.png";
-import paypal from "../../resources/Image & Icon/paypal.png";
+import amex from "../../resources/Images/credit-cards_amex.png";
+import masterCard from "../../resources/Images/credit-cards_mastercard.png";
+import visa from "../../resources/Images/credit-cards_visa.png";
+import paypal from "../../resources/Images/paypal.png";
 
 const Payment = () => {
   return (

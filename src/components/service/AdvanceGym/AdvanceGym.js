@@ -1,6 +1,6 @@
 import React from 'react';
-import check from '../../../resources/Image & Icon/checkmark.png'
-import advnGym from "../../../resources/Image & Icon/rsz_advance_gym.jpg";
+import check from '../../../resources/Images/checkmark.png'
+import advnGym from "../../../resources/Images/rsz_advance_gym.jpg";
 import './AdvanceGym.scss'
 
 const AdvanceGym = () => {

@@ -1,9 +1,9 @@
 import React from 'react';
-import youtube from '../../../resources/Image & Icon/bxl-youtube.png'
-import fb from '../../../resources/Image & Icon/bxl-facebook.png'
-import insta from '../../../resources/Image & Icon/bxl-instagram.png'
-import twitter from '../../../resources/Image & Icon/bxl-twitter.png'
-import whatsapp from '../../../resources/Image & Icon/bxl-whatsapp.png'
+import youtube from '../../../resources/Images/bxl-youtube.png'
+import fb from '../../../resources/Images/bxl-facebook.png'
+import insta from '../../../resources/Images/bxl-instagram.png'
+import twitter from '../../../resources/Images/bxl-twitter.png'
+import whatsapp from '../../../resources/Images/bxl-whatsapp.png'
 import { Link } from 'react-router-dom';
 import './footer.scss'
 
