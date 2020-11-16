@@ -5,6 +5,8 @@ import "./App.scss";
 import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
 import Pricing from "./components/service/Pricing/Pricing";
 import OurClasses from "./components/service/OurClasses/OurClasses";
+import AdvanceGym from "./components/service/AdvanceGym/AdvanceGym";
+import Home from "./components/home/Home/Home";
 
 const App = () => {
   return (
@@ -22,6 +24,12 @@ const App = () => {
           </Route>
           <Route path="/pricing">
             <Pricing />
+          </Route>
+          <Route path ="/advanceGym">
+            <AdvanceGym/>
+          </Route>
+          <Route path ="/home">
+            <Home/>
           </Route>
           <Route path="/">
             <h2>this is home page.</h2>
