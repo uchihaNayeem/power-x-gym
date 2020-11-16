@@ -21,7 +21,11 @@ export default function MembershipForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="container-fluid py-3">
+    <form
+      id="personal-details-form"
+      onSubmit={handleSubmit(onSubmit)}
+      className="container-fluid py-3"
+    >
       <Row className="d-flex justify-content-center">
         <Col xs={12} md={9}>
           <PathToMemberShip nextNo={nextNo} />

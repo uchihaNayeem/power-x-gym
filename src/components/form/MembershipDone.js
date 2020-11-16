@@ -9,6 +9,7 @@ const MembershipDone = () => {
   useEffect(() => {
     setTimeout(() => {
       if (!disappear) {
+        localStorage.removeItem("formData");
         setDisappear(!disappear);
         history.push("/");
       }
