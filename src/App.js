@@ -1,6 +1,7 @@
 import React from "react";
 import MembershipForm from "./components/form/Form";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.scss";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import OurClasses from "./components/service/OurClasses";
 

@@ -40,9 +40,11 @@ const MembershipDone = () => {
               You are now a member of Power X gym.
             </p>
           </Col>
-          <p className="text-primary font-weight-bolder text-uppercase">
-            You will be redirected to home page.
-          </p>
+          <Col xs={12} className="mt-3">
+            <p className="text-primary text-center font-weight-bolder text-uppercase">
+              You will be redirected to home page.
+            </p>
+          </Col>
         </>
       )}
     </>

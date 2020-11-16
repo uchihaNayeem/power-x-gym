@@ -56,9 +56,9 @@ export default function MembershipForm() {
         </Row>
       )}
 
-      <Row className="p-0 m-0">
-        <Col xs={11} md={11} className="clearfix p-0 m-0">
-          {nextNo !== 2 && (
+      <Row className="p-0 m-0 justify-content-center">
+        {nextNo !== 2 && nextNo === 0 && (
+          <Col xs={11} md={10} className="clearfix p-0 m-0">
             <input
               type="submit"
               className="btn mt-3 float-right font-weight-bolder px-3"
@@ -66,8 +66,19 @@ export default function MembershipForm() {
               onClick={handleSubmit}
               value="next"
             />
-          )}
-        </Col>
+          </Col>
+        )}
+        {nextNo !== 2 && nextNo === 1 && (
+          <Col xs={11} md={8} className="clearfix p-0 m-0">
+            <input
+              type="submit"
+              className="btn mt-3 float-right font-weight-bolder px-3"
+              style={{ backgroundColor: "#fcd842" }}
+              onClick={handleSubmit}
+              value="next"
+            />
+          </Col>
+        )}
       </Row>
     </form>
   );

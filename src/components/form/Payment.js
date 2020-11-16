@@ -23,9 +23,9 @@ const CreditCard = () => {
     <>
       <Col
         xs={11}
-        md={10}
+        md={8}
         className="p-4"
-        style={{ border: "2px solid black" }}
+        style={{ border: "1px solid #9b9b9b" }}
       >
         <Row>
           <Col xs={8}>
@@ -118,9 +118,9 @@ const Paypal = () => {
     <>
       <Col
         xs={11}
-        md={10}
+        md={8}
         className="mt-3 p-4"
-        style={{ border: "2px solid black" }}
+        style={{ border: "1px solid #9b9b9b" }}
       >
         <Row>
           <Col xs={8}>
