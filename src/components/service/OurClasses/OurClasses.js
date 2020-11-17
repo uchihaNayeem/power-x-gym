@@ -8,6 +8,8 @@ import strengthTraining from "../../../resources/Images/rsz_strength_traning.jpg
 import lastTraining from "../../../resources/Images/phsco training.jpg";
 import Navbar from "../../HomePage/Navbar/Navbar";
 import Footer from "../../HomePage/Footer/Footer";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const OurClasses = () => {
   return (
@@ -18,19 +20,19 @@ const OurClasses = () => {
           <div className="card">
             <img className="card-img-top" src={firstTraining} alt="" />
             <div className="card-footer">
-              <button className="btn-warning btn">PHYCHO TRAINING</button>
+              <button className="btn-warning btn">PHYCHO TRAINING <FontAwesomeIcon icon={faArrowRight}/></button>
             </div>
           </div>
           <div className="card">
             <img className="card-img-top" src={selfDefence} alt="" />
             <div className="card-footer">
-              <button className="btn-warning btn">SELF DEFENCE</button>
+              <button className="btn-warning btn">SELF DEFENCE <FontAwesomeIcon icon={faArrowRight}/></button>
             </div>
           </div>
           <div className="card">
             <img className="card-img-top" src={advanceGym} alt="" />
             <div className="card-footer">
-              <button className="btn-warning btn">ADVANCE GYM</button>
+              <button className="btn-warning btn">ADVANCE GYM <FontAwesomeIcon icon={faArrowRight}/></button>
             </div>
           </div>
         </div>
@@ -38,19 +40,19 @@ const OurClasses = () => {
           <div className="card">
             <img className="card-img-top " src={CardioTraining} alt="" />
             <div className="card-footer">
-              <button className="btn-warning btn">CARDIO TRAINING</button>
+              <button className="btn-warning btn">CARDIO TRAINING <FontAwesomeIcon icon={faArrowRight}/></button>
             </div>
           </div>
           <div className="card">
             <img className="card-img-top" src={strengthTraining} alt="" />
             <div className="card-footer">
-              <button className="btn-warning btn">STRENGTH TRANING</button>
+              <button className="btn-warning btn">STRENGTH TRANING <FontAwesomeIcon icon={faArrowRight}/></button>
             </div>
           </div>
           <div className="card">
             <img className="card-img-top" src={lastTraining} alt="" />
             <div className="card-footer">
-              <button className="btn-warning btn">PHYSCHO TRANING</button>
+              <button className="btn-warning btn">PHYSCHO TRANING <FontAwesomeIcon icon={faArrowRight}/></button>
             </div>
           </div>
         </div>

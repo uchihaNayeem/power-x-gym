@@ -7,7 +7,7 @@ import img3 from '../../../resources/Images/gift-2.png';
 const ChooseUs = () => {
   return (
     <div className="container workOut">
-            <h3 className="d-flex justify-content-center choose">WHY <span className="text-warning">CHOOSE US</span></h3>
+            <h3 className="d-flex justify-content-center choose">WHY  <span className="text-warning">CHOOSE US</span></h3>
             <div className="row ">
                 <div className="col-md-4">
                     <div className="card text-center ">
@@ -36,7 +36,7 @@ const ChooseUs = () => {
                         <div className="card-body d-flex align-items-center cardStyle">
                             <div>
                                 <img src={img3} alt="" />
-                                <h6 className="text-black card-title">NO COMMITMENT MEMBERSHIPS</h6>
+                                <h6 style={{color: "black"}} className=" card-title">NO COMMITMENT MEMBERSHIPS</h6>
                                 <p className="text-black">With supporting text below as a natural lead-in to additional content.</p>
                             </div>
                         </div>
