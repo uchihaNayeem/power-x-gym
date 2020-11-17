@@ -7,6 +7,12 @@ import Pricing from "./components/service/Pricing/Pricing";
 import OurClasses from "./components/service/OurClasses/OurClasses";
 import AdvanceGym from "./components/service/AdvanceGym/AdvanceGym";
 import Home from "./components/home/Home/Home";
+import Navbar from "./components/HomePage/Navbar/Navbar";
+import Feature from "./components/HomePage/Feature/Feature";
+import AboutUs from "./components/HomePage/AboutUs/AboutUs";
+import TrainingSession from "./components/HomePage/TrainingSession/TrainingSession";
+import ChooseUs from "./components/home/ChooseUs/ChooseUs";
+import FooterX from "./components/HomePage/FooterX/FooterX";
 
 const App = () => {
   return (
@@ -31,13 +37,29 @@ const App = () => {
           <Route path ="/home">
             <Home/>
           </Route>
+
+{/* /homeX , added by nayeem */}
+
+          <Route path ="/homex">
+            <Navbar/>
+            <Feature/>
+            <AboutUs/>
+            <TrainingSession/>
+            <ChooseUs/>
+            <FooterX/>
+          </Route>
+
+
           <Route path="/">
             <h2>this is home page.</h2>
-            <Link to="/form">form</Link>
+            <Link to="/homeX">Home Page</Link>
             <br />
+            <Link to="/form">form</Link>
+            <br/>
             <Link to="/pricing">pricing</Link>
             <br />
             <Link to="/services">our services</Link>
+            <h3>Testing</h3>
           </Route>
         </Switch>
       </BrowserRouter>
