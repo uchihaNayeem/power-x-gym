@@ -6,7 +6,12 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Pricing from "./components/service/Pricing/Pricing";
 import OurClasses from "./components/service/OurClasses/OurClasses";
 import AdvanceGym from "./components/service/AdvanceGym/AdvanceGym";
-import Home from "./components/home/Home/Home";
+import Navbar from "./components/HomePage/Navbar/Navbar";
+import Feature from "./components/HomePage/Feature/Feature";
+import AboutUs from "./components/HomePage/AboutUs/AboutUs";
+import TrainingSession from "./components/HomePage/TrainingSession/TrainingSession";
+import ChooseUs from "./components/HomePage/ChooseUs/ChooseUs";
+import Footer from "./components/HomePage/Footer/Footer";
 
 const App = () => {
   return (
@@ -16,11 +21,8 @@ const App = () => {
           <Route path="/form">
             <MembershipForm />
           </Route>
-          <Route path="/services">
+          <Route path="/ourclasses">
             <OurClasses />
-          </Route>
-          <Route path="/pricing">
-            <Pricing />
           </Route>
           <Route path="/pricing">
             <Pricing />
@@ -28,11 +30,14 @@ const App = () => {
           <Route path="/advanceGym">
             <AdvanceGym />
           </Route>
-          <Route path="/home">
-            <Home />
-          </Route>
+
           <Route path="/">
-            <Home />
+            <Navbar />
+            <Feature />
+            <AboutUs />
+            <TrainingSession />
+            <ChooseUs />
+            <Footer />
           </Route>
         </Switch>
       </BrowserRouter>
